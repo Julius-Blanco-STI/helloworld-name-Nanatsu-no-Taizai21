@@ -8,7 +8,7 @@ public class Main {
        String name = scn.nextLine();
        System.out.print("How old are you? ");
        int a = scn.nextInt();
-       System.out.println("What's Your address)? ");
+       System.out.println("What's your address? ");
        String address = scn.nextLine();
        address = scn.nextLine();
 	   
