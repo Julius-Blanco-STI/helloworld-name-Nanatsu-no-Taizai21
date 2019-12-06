@@ -17,5 +17,4 @@ public class Main {
        System.out.println("You are " + a + "years old");
        System.out.println("You live at " + address);
     }
-    
 }
