@@ -7,17 +7,14 @@ public class Taxi {
     	public String name = null;
     	
     public Taxi(String name) {
-		this.name = name;
-	
+	this.name = name;
     }
-    	
     	public int getDest_x(){
     		return this.dest_x;
     	}
     	public int getDest_y(){
     		return this.dest_y;
-    	}
-    	
+    	}    	
        	public void run(String run){
        		int C = run.length();
        		for(int a = 0; a < C; a++){
@@ -33,16 +30,13 @@ public class Taxi {
        			else if(run.charAt(a) == 'u' || run.charAt(a) == 'U'){
        				y++;
        			}	
-       		}
-       		
-    		    		
+       		}	    		
     	}
     	public void setBook(int dest_x, int dest_y){
     		this.dest_x = dest_x;
     		this.dest_y = dest_y;
     	}
     	public boolean reachedDestination(){
-    		
     		if((x == dest_x) && (y == dest_y)){
     			return true;
     		}
@@ -52,4 +46,3 @@ public class Taxi {
     		System.out.println("Your current location is on: " + x + " " + y);    		
     	}
     }
-       
